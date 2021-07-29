@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+<head>
+<title>MOD PRO</title>
+</head>
+<body>
+<div id="tampil">
+</div>
+<button onclick="fungsi()">KLIK DISINI</button>
+<script>
+var x = document.getElementById("tampil")
+function fungsi() 
+{
+x.innerHTML="HELLO WORLD 😎😎😎";
+}
+</script>
+</body>
+</html>
